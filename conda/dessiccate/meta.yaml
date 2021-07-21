@@ -1,0 +1,40 @@
+package:
+  name: dessiccate
+  version: 0.0.11
+source:
+  sha256: 536529508b711dcb9a7ba34ed43f0d0cfe9cf6a4d5da982497e0258bb093b8f0
+  url: https://files.pythonhosted.org/packages/af/e6/f140e6769ffc8b5623a81ccf9edac3673057cd7580bccd320c57b5a3d30e/dessiccate-0.0.11.tar.gz
+about:
+  dev_url: https://mgfrantz.github.io
+  doc_url: https://mgfrantz.github.io
+  home: https://mgfrantz.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: A library to keep code DRY
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - mgfrantz
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  - attrdict==2.0.1
+  - fastcore==1.3.20
+  - matplotlib>=3.3
+  - pandas-flavor==0.2.0
+  run:
+  - pip
+  - python
+  - packaging
+  - attrdict==2.0.1
+  - fastcore==1.3.20
+  - matplotlib>=3.3
+  - pandas-flavor==0.2.0
+test:
+  imports:
+  - dessiccate
