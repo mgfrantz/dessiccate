@@ -1,0 +1,8 @@
+{
+  "dessiccate": {
+    "Overview": "/",
+    "Core": "core.html",
+    "Plotting": "plotting.html",
+    "Pandas": "pandas.html"
+  }
+}
