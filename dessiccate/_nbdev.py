@@ -9,7 +9,8 @@ index = {"run_bash": "00_core.ipynb",
          "set_plt_defaults": "01_plotting.ipynb",
          "remove_ticks": "01_plotting.ipynb",
          "ends": "02_pandas.ipynb",
-         "group_by_summary": "02_pandas.ipynb"}
+         "group_by_summary": "02_pandas.ipynb",
+         "datetime_from_timestamp": "02_pandas.ipynb"}
 
 modules = ["core.py",
            "plotting.py",
